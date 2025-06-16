@@ -1,7 +1,7 @@
 from openai import OpenAI
-from dotenv import API_KEY
+
 client = OpenAI(
-    api_key=API_KEY
+    api_key='API_KEY'
 )
 
 def get_car_ai_bio(model, brand, year):
